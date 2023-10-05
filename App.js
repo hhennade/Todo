@@ -47,6 +47,7 @@ export default function App() {
     const newTodos = [...todos, object]
     setTodos(newTodos)
     setNewTodo('')
+    storeData(newTodos)
   }
 
   return (
